@@ -1,0 +1,23 @@
+.player-sec{
+    .player-row {
+        display: flex;
+        align-items: center;
+        @include respond-to-max(1300){
+            display: block !important;
+            text-align: center;
+            
+        }
+        .et_pb_column{
+            margin-top: 30px;
+            width: 100%;
+            @include respond-to-max(1300){
+                text-align: center;
+                }
+            .et_pb_module{
+                @include respond-to-max(1300){
+                text-align: center;
+                }
+            }
+        } 
+    }
+}

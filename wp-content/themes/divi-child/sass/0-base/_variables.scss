@@ -1,0 +1,35 @@
+$img: '../images/';
+
+$breakpoints: (
+  xxs: 320px,
+  xs: 480px,
+  500: 500px,
+  s: 768px,
+  m: 992px,
+  981: 981px,
+  l: 1200px,
+  1300: 1300px,
+  1350: 1350px,
+  xl: 1400px,
+  xxl: 1600px,
+  xxxl: 1800px,
+  sl: 2000px,
+);
+
+// SIZING
+$base: 62.5%;
+
+// COLOR
+$prim: #0F034F;
+$sec: #F5802D;
+$default: #000;
+$white: #fff;
+
+//FONTS
+$font-fallback: Helvetica,Arial,sans-serif;
+$f-header: 'Robot Black',Helvetica,Arial,Lucida,sans-serif;
+$f-default:'PlusJakartaSans-Regular',Helvetica,Arial,Lucida,sans-serif;
+$f-form:'Poppins',Helvetica,Arial,Lucida,sans-serif;
+
+//SPACINGnpm
+$mbottom: 15px;

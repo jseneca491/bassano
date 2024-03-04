@@ -1,0 +1,79 @@
+.contact-sec{
+    @include respond-to-max(m){
+        padding-top: 96px !important;
+    }
+    .contact-row{
+        #gform_wrapper_1{
+            #gform_1{
+               .gform_footer {
+                input[type=submit]:hover{
+                    background-color: #0F034F;
+                    cursor: pointer;
+                }
+             input[type=submit] {
+                 cursor: pointer;
+                    margin-top: 10px;
+                    width: 100%;
+                    border-radius: 0;
+                    padding: 15px;
+                    text-transform: uppercase;
+                    font-size: 18px;
+                    background-color: #D93830;
+                    font-weight: bold;
+                    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+                    border: 1px solid #eee;
+                    border-radius: 5px;
+                }
+                }
+                #gform_fields_1{
+                    .gfield input[type=text], input[type=tel], textarea {
+                        border-radius: 0;
+                        padding: 15px;
+                        font-size: 18px;
+                        color: #000;
+                        font-weight: 300;
+                        font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+                        border: 1px solid #eee;
+                        border-radius: 5px;
+                    }
+                    ::placeholder{
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.page-id-27{
+    .contact-wrapper{
+        display: none;
+    }
+}
+
+.testimonial{
+    .swiper-slide{
+        display: block;
+        text-align: center;
+        padding: 20px 0 20px 0;
+    }
+    .author p{
+        margin-top: 50px;
+        font-size: 30px;
+        font-weight: bold;
+        color: #D93830 !important;
+        text-transform: uppercase;
+    }
+    .comment {
+        width: 80%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        @include respond-to-max(500){
+            width: 70%;
+            font-size: 16px;
+        }
+    }
+}

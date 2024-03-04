@@ -1,0 +1,150 @@
+.contact-wrapper{
+     @include respond-to-max(981){
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+     }
+    
+    .contact-container{
+        @include respond-to-max(xs){
+        .et_pb_text_inner{
+            font-size: 30px !important;
+        }
+        }
+        #gform_wrapper_1{
+            #gform_1{
+               .gform_footer {
+                input[type=submit]:hover{
+                    background-color: #0F034F;
+                    cursor: pointer;
+                }
+             input[type=submit] {
+                 cursor: pointer;
+                    margin-top: 10px;
+                    width: 100%;
+                    border-radius: 0;
+                    padding: 15px;
+                    text-transform: uppercase;
+                    font-size: 18px;
+                    background-color: #D93830;
+                    font-weight: bold;
+                    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+                    border: 1px solid #eee;
+                    border-radius: 5px;
+                }
+                }
+                #gform_fields_1{
+                    .gfield input[type=text], input[type=tel], textarea {
+                        border-radius: 0;
+                        padding: 15px;
+                        font-size: 18px;
+                        color: #000;
+                        font-weight: 300;
+                        font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+                        border: 1px solid #eee;
+                        border-radius: 5px;
+                    }
+                    ::placeholder{
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+}
+.footer-sec{
+ 
+    .et_pb_row{
+        &.footer-row{
+            
+            @include respond-to-max(xl){
+                margin-top: unset !important;
+               
+            }
+            .et_pb_column {
+               
+                .et_pb_module{
+                    &.et_pb_blurb{
+                        .et_pb_blurb_content {
+                            @include respond-to-max(xl){
+                        display: flex;
+                            text-align: center;
+                            flex-wrap: wrap;
+                        }
+                        .et_pb_main_blurb_image{
+                            @include respond-to-max(xl){
+                                width: 100%;
+                                }
+                        }
+                        .et_pb_blurb_container{
+                            @include respond-to-max(xl){
+                                width: 100%;
+                                text-align: center;
+                                }
+                        }
+                    }
+                 }
+            }
+        }
+        
+            .footer-col1{
+                @include respond-to-max(xl){
+                    width: 100% !important;
+                   
+                }
+                width: 20% !important;
+                .et_pb_image{
+                    @include respond-to-max(xl){
+                        width: 200px;
+                       
+                    }
+                }
+            }
+            .footer-col2{
+                @include respond-to-max(xl){
+                    margin-top: 50px !important;
+                    width: 100% !important;
+                    text-align: center;
+                   
+                }
+                
+                width: 40% !important;
+            }
+            
+            .footer-col3{
+                @include respond-to-max(xl){
+                    width: 100% !important;
+                    text-align: center;
+                   
+                }
+                width: 20% !important;
+                .et_pb_module{
+                    @include respond-to-max(xl){
+                        
+                        text-align: center;
+                       
+                    }
+                }
+            }
+            .footer-col4{
+                @include respond-to-max(xl){
+                    width: 100% !important;
+                   
+                }
+                width: 20% !important;
+                .et_pb_module{
+                    @include respond-to-max(xl){
+                        
+                        text-align: center;
+                       
+                    }
+                }
+                
+            }
+
+    }
+}
+}
+
+.copy-sec {
+    margin-top: 75px !important;
+}
